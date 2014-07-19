@@ -36,8 +36,11 @@ gem 'jquery-ui-rails'
 gem 'figaro', '1.0.0.rc1'
 # user model
 gem 'devise'
-gem 'omniauth-facebook'
-
+# pry stuff
+gem "pry"
+gem "pry-doc"
+gem 'pry-byebug'
+gem 'pry-stack_explorer'
 
 group :development, :test do
   # This includes rspec-rails in a development environment so that we have
